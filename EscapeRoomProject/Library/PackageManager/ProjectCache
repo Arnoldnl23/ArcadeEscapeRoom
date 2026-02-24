@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639074658955978587
-    m_Hash: 2910201597
+      ticks: 639075546778110304
+    m_Hash: 3641685734
   m_LockFileStatus:
     m_FilePath: C:/Github/ArcadeEscapeRoom/EscapeRoomProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639074659936435837
-    m_Hash: 3512276742
+      ticks: 639075546778150650
+    m_Hash: 1856495826
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,86 @@ m_LocalPackages:
 m_ProjectPath: C:/Github/ArcadeEscapeRoom/EscapeRoomProject/Packages
 m_EditorVersion: 6000.2.5f1 (43d04cd1df69)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 331abd9a1e2ff424a1ef2626e16936071ab7ce3d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2019.2.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.feature.development@1.0.2
   testable: 0
   isDirectDependency: 1
@@ -348,12 +428,14 @@ m_ResolvedPackages:
     - 1.16.0
     - 1.17.0
     - 1.18.0
+    - 1.19.0
     compatible:
     - 1.14.2
     - 1.15.0
     - 1.16.0
     - 1.17.0
     - 1.18.0
+    - 1.19.0
     recommended: 1.14.2
     deprecated: []
   dependencies:
@@ -552,6 +634,7 @@ m_ResolvedPackages:
     - 6.0.0-pre.6
     - 6.0.0-pre.7
     - 6.0.0
+    - 6.0.1
     compatible:
     - 5.0.2
     - 5.0.3
@@ -560,6 +643,7 @@ m_ResolvedPackages:
     - 6.0.0-pre.6
     - 6.0.0-pre.7
     - 6.0.0
+    - 6.0.1
     recommended: 5.0.3
     deprecated: []
   dependencies:
@@ -1623,7 +1707,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638924605331920000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.5/manual/index.html
@@ -5259,7 +5343,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638738251595540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
@@ -5984,7 +6068,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638792046006940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
