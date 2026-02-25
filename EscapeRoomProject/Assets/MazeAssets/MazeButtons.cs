@@ -4,22 +4,26 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class MazeButtons : MonoBehaviour
 {
-    public Transform movingPart;
-    public Vector3 pressDirection = Vector3.down;
-    public float pressDistance = 0.1f;
+    private Transform movingPart;
+    private Vector3 pressDirection = Vector3.down;
+    private float pressDistance = 0.2f;
     private Vector3 startPosition;
 
-    public GameObject mazePlayer;
+    private Transform mazePlayer;
     public Vector3 moveDirection;
 
     private XRBaseInteractable interactable;
     
     void Start()
     {
-        interactable = GetComponent<XRBaseInteractable>();
+        movingPart = GetComponent<Transform>();
+        startPosition = transform.position;
+
+        mazePlayer = GameObject.Find("MazePlayer").GetComponent<Transform>();
+
+        interactable = GetComponent<XRSimpleInteractable>();
         if (interactable != null)
         {
-
             interactable.selectEntered.AddListener(OnSelectEntered);
             interactable.selectExited.AddListener(OnSelectExited);
         }
@@ -31,7 +35,9 @@ public class MazeButtons : MonoBehaviour
 
         Debug.Log("Button Pressed!");
         movingPart.localPosition = startPosition + (pressDirection * pressDistance);
+        
         // Trigger movement based on which button it is
+        mazePlayer.Translate(moveDirection * Time.deltaTime);
     }
 
     // This method is called when the interactor stops selecting
