@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Github/ArcadeEscapeRoom/EscapeRoomProject/Packages/manifest.json
+    m_FilePath: C:/Users/dreww/OneDrive/Documentos/GitHub/ArcadeEscapeRoom/EscapeRoomProject/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639075546778110304
-    m_Hash: 3641685734
+      ticks: 639076357808679823
+    m_Hash: 1864422123
   m_LockFileStatus:
-    m_FilePath: C:/Github/ArcadeEscapeRoom/EscapeRoomProject/Packages/packages-lock.json
+    m_FilePath: C:/Users/dreww/OneDrive/Documentos/GitHub/ArcadeEscapeRoom/EscapeRoomProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639075546778150650
-    m_Hash: 1856495826
+      ticks: 639076357808679823
+    m_Hash: 4232945715
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Github/ArcadeEscapeRoom/EscapeRoomProject/Packages
+m_ProjectPath: C:/Users/dreww/OneDrive/Documentos/GitHub/ArcadeEscapeRoom/EscapeRoomProject/Packages
 m_EditorVersion: 6000.2.5f1 (43d04cd1df69)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -107,7 +107,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -218,7 +218,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -352,7 +352,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.15.0
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.inputsystem@85cf3259697c
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.inputsystem@85cf3259697c
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -544,7 +544,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 5.0.2
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.learn.iet-framework@c18a35c1d1a1
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.learn.iet-framework@c18a35c1d1a1
   assetPath: Packages/com.unity.learn.iet-framework
   name: com.unity.learn.iet-framework
   displayName: Tutorial Framework
@@ -671,7 +671,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638919872523490000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.learn.iet-framework@5.0/manual/index.html
@@ -712,7 +712,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -808,7 +808,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.2.0
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.render-pipelines.universal@0d0962426023
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.render-pipelines.universal@0d0962426023
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -854,12 +854,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.7
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.5
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -935,7 +935,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1046,18 +1046,18 @@ m_ResolvedPackages:
     recommended: 1.8.10
     deprecated: []
   dependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1082,7 +1082,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638900049118440000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
@@ -1135,7 +1135,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.androidxr-openxr@b840a88867bc
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.androidxr-openxr@b840a88867bc
   assetPath: Packages/com.unity.xr.androidxr-openxr
   name: com.unity.xr.androidxr-openxr
   displayName: Unity OpenXR Android XR
@@ -1298,7 +1298,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 6.3.1
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.arfoundation@f2cbfcba674a
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.arfoundation@f2cbfcba674a
   assetPath: Packages/com.unity.xr.arfoundation
   name: com.unity.xr.arfoundation
   displayName: AR Foundation
@@ -1621,7 +1621,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.5.3
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.core-utils@f0450cbac8d6
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.core-utils@f0450cbac8d6
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -1707,7 +1707,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638924605331920000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.5/manual/index.html
@@ -1749,7 +1749,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.1
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.hands@7bcbb3f89c3d
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.hands@7bcbb3f89c3d
   assetPath: Packages/com.unity.xr.hands
   name: com.unity.xr.hands
   displayName: XR Hands
@@ -1918,7 +1918,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.3.0
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.interaction.toolkit@4424268f6f27
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.interaction.toolkit@4424268f6f27
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -2148,7 +2148,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.5.3
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.management@574ebfb1e976
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.management@574ebfb1e976
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -2316,7 +2316,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.15.1
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.openxr@05fb1a7d75d1
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.openxr@05fb1a7d75d1
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -2390,15 +2390,31 @@ m_ResolvedPackages:
     recommended: 1.15.1
     deprecated: []
   dependencies:
-  - name: com.unity.inputsystem
-    version: 1.6.3
-  - name: com.unity.xr.core-utils
-    version: 2.3.0
   - name: com.unity.xr.management
     version: 4.4.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.2
+  - name: com.unity.inputsystem
+    version: 1.6.3
+  - name: com.unity.xr.core-utils
+    version: 2.3.0
   resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.5.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.5.3
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.12
+  - name: com.unity.modules.vr
+    version: 1.0.0
   - name: com.unity.inputsystem
     version: 1.15.0
   - name: com.unity.modules.uielements
@@ -2407,23 +2423,7 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.xr.core-utils
-    version: 2.5.3
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.5.3
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.12
-  - name: com.unity.modules.vr
     version: 1.0.0
   keywords:
   - openxr
@@ -2443,7 +2443,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638890431393250000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.15/manual/index.html
@@ -5254,7 +5254,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.12
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -5343,7 +5343,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638738251595540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
@@ -5386,7 +5386,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.ugui@38c58105e446
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.ugui@38c58105e446
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -5482,7 +5482,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -5491,7 +5491,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   errors: []
@@ -5539,7 +5539,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638409134840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
@@ -5583,7 +5583,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -5592,7 +5592,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -5631,7 +5631,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
   documentationUrl: 
@@ -5672,7 +5672,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.2.0
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.render-pipelines.core@f2c863af5658
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.render-pipelines.core@f2c863af5658
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -5729,12 +5729,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.7
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.5
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -5798,7 +5798,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.2.0
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.shadergraph@940512a5d7e1
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.shadergraph@940512a5d7e1
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5843,12 +5843,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.7
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.5
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -5914,7 +5914,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -5953,12 +5953,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.7
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.5
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -6022,7 +6022,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -6068,7 +6068,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638792046006940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
@@ -6111,7 +6111,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -6191,7 +6191,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.23
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -6268,7 +6268,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638786696173840000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
@@ -6313,7 +6313,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -6372,7 +6372,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638699545898200000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
@@ -6414,7 +6414,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.5.1
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.test-framework@038a2b0cacd2
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.test-framework@038a2b0cacd2
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -6504,7 +6504,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -6513,7 +6513,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -6595,7 +6595,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638575857900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
@@ -6641,7 +6641,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.3
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.searcher@1e17ce91558d
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -6740,7 +6740,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.24
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.burst@f7a407abf4d5
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.burst@f7a407abf4d5
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6930,7 +6930,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638899061085800000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
@@ -6981,7 +6981,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.7
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.collections@d49facba0036
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.collections@d49facba0036
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -7093,10 +7093,10 @@ m_ResolvedPackages:
     version: 1.8.19
   - name: com.unity.mathematics
     version: 1.3.2
-  - name: com.unity.test-framework
-    version: 1.4.6
   - name: com.unity.nuget.mono-cecil
     version: 1.11.5
+  - name: com.unity.test-framework
+    version: 1.4.6
   - name: com.unity.test-framework.performance
     version: 3.0.3
   resolvedDependencies:
@@ -7106,14 +7106,14 @@ m_ResolvedPackages:
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.5
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
   - name: com.unity.test-framework.performance
     version: 3.1.0
   keywords:
@@ -7133,7 +7133,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638803020568560000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/index.html
@@ -7179,7 +7179,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.rendering.light-transport@2c9279f90d7c
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.rendering.light-transport@2c9279f90d7c
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -7215,14 +7215,14 @@ m_ResolvedPackages:
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.5
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.terrain
@@ -7285,7 +7285,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.5
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -7337,7 +7337,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638729992509040000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.nuget.mono-cecil@1.11/manual/index.html
@@ -7380,7 +7380,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.1.0
   source: 1
-  resolvedPath: C:\Github\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.test-framework.performance@92d1d09a72ed
+  resolvedPath: C:\Users\dreww\OneDrive\Documentos\GitHub\ArcadeEscapeRoom\EscapeRoomProject\Library\PackageCache\com.unity.test-framework.performance@92d1d09a72ed
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -7483,7 +7483,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638792643567670000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.1/manual/index.html
