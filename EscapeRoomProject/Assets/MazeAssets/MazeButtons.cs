@@ -13,7 +13,8 @@ public class MazeButtons : MonoBehaviour
 
     private bool freeze;
 
-    private Transform mazePlayer;
+    private GameObject mazePlayerObject;
+    private Transform mazePlayerTransform;
     public Vector3 moveDirection;
 
     private XRBaseInteractable interactable;
@@ -22,7 +23,9 @@ public class MazeButtons : MonoBehaviour
     void Start()
     {
         initialPos = visualTarget.localPosition;
-        mazePlayer = GameObject.Find("MazePlayer").GetComponent<Transform>();
+        mazePlayerObject = GameObject.Find("MazePlayer");
+        mazePlayerTransform = mazePlayerObject.GetComponent<Transform>();
+        
 
         interactable = GetComponent<XRBaseInteractable>();
         if (interactable != null)
@@ -47,6 +50,7 @@ public class MazeButtons : MonoBehaviour
 
     public void Reset(BaseInteractionEventArgs hover)
     {
+        Debug.Log("Hover exited");
         if (hover.interactorObject is XRPokeInteractor)
         {
             isFollowing = false;
@@ -57,7 +61,17 @@ public class MazeButtons : MonoBehaviour
     private void Update()
     {
         if (freeze)
-            mazePlayer.Translate(moveDirection * Time.deltaTime);
+        {
+            if (mazePlayerObject.GetComponent<Player>().isColliding == true)
+            {
+                mazePlayerTransform.Translate(moveDirection * Time.deltaTime);
+            }
+            else
+            {
+                mazePlayerTransform.Translate(moveDirection * Time.deltaTime * -3);
+            }
+            return;
+        }
 
         if (isFollowing)
         {

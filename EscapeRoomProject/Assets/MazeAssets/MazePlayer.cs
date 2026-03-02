@@ -2,10 +2,23 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public GameObject leftArrow;
-    public GameObject rightArrow;
-    public GameObject upArrow;
-    public GameObject downArrow;
+    public bool isColliding = false;
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Wall")
+        {
+            isColliding = true;
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Wall")
+        {
+            isColliding = false;
+        }
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
