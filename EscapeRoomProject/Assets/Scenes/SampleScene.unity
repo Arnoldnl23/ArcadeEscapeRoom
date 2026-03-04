@@ -12663,6 +12663,7 @@ GameObject:
   - component: {fileID: 598325435}
   - component: {fileID: 598325434}
   - component: {fileID: 598325438}
+  - component: {fileID: 598325439}
   m_Layer: 0
   m_Name: MazePlayer
   m_TagString: Untagged
@@ -12690,9 +12691,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 2.9650154
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.00000006576687, y: -0.48250327, z: 0.0000002569632}
 --- !u!23 &598325435
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12758,7 +12759,7 @@ Transform:
   m_GameObject: {fileID: 598325433}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.4338, y: 0.429, z: -0.264}
+  m_LocalPosition: {x: -0.4617, y: 0.429, z: -0.264}
   m_LocalScale: {x: 0.038766515, y: 0.5307469, z: 0.074466564}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12777,6 +12778,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   isColliding: 0
+--- !u!54 &598325439
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598325433}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &602294806
 GameObject:
   m_ObjectHideFlags: 0
@@ -18049,7 +18077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MazeButtons
   visualTarget: {fileID: 1107890781}
-  moveDirection: {x: -0.01, y: 0, z: 0}
+  moveDirection: {x: 0.01, y: 0, z: 0}
 --- !u!136 &831537175
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -22209,7 +22237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MazeButtons
   visualTarget: {fileID: 162482368}
-  moveDirection: {x: 0, y: 0, z: -0.01}
+  moveDirection: {x: 0, y: 0, z: 0.01}
 --- !u!136 &1046105194
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -31424,7 +31452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MazeButtons
   visualTarget: {fileID: 1465218420}
-  moveDirection: {x: 0, y: 0, z: 0.01}
+  moveDirection: {x: 0, y: 0, z: -0.01}
 --- !u!136 &1573127740
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -37150,7 +37178,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -41178,7 +41206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MazeButtons
   visualTarget: {fileID: 179099946}
-  moveDirection: {x: 0.01, y: 0, z: 0}
+  moveDirection: {x: -0.01, y: 0, z: 0}
 --- !u!114 &2100139331
 MonoBehaviour:
   m_ObjectHideFlags: 0

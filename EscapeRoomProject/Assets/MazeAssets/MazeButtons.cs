@@ -62,13 +62,13 @@ public class MazeButtons : MonoBehaviour
     {
         if (freeze)
         {
-            if (mazePlayerObject.GetComponent<Player>().isColliding == true)
+            if (mazePlayerObject.GetComponent<Player>().isColliding == false)
             {
                 mazePlayerTransform.Translate(moveDirection * Time.deltaTime);
             }
             else
             {
-                mazePlayerTransform.Translate(moveDirection * Time.deltaTime * -3);
+                mazePlayerTransform.Translate((-moveDirection * 3) * Time.deltaTime);
             }
             return;
         }
