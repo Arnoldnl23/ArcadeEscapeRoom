@@ -484,6 +484,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/MazeAssets/MazeButtons.cs"
 "Assets/MazeAssets/MazePlayer.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PowerBox.cs"
 "Assets/VRTemplateAssets/Scripts/AnchorVisuals.cs"
 "Assets/VRTemplateAssets/Scripts/BezierCurve.cs"
