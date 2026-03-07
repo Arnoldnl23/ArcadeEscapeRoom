@@ -48,10 +48,10 @@ public class MazeButtons : MonoBehaviour
         }
     }
 
-    public void Reset(BaseInteractionEventArgs hover)
+    public void Reset(BaseInteractionEventArgs select)
     {
         Debug.Log("Hover exited");
-        if (hover.interactorObject is XRPokeInteractor)
+        if (select.interactorObject is XRPokeInteractor)
         {
             isFollowing = false;
             freeze = false;
@@ -90,9 +90,6 @@ public class MazeButtons : MonoBehaviour
     {
         freeze = true;
         Debug.Log("Button Pressed!");
-        
-        // Trigger movement based on which button it is
-
     }
 
 
