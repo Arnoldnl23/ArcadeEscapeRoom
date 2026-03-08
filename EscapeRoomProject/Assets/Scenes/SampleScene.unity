@@ -7829,14 +7829,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351291184}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.101, y: 0.127, z: -0.167}
+  m_LocalRotation: {x: -0.000004091649, y: 0.000009708979, z: 0.7070833, w: 0.7071304}
+  m_LocalPosition: {x: 0.10099983, y: 0.1269998, z: -0.16699982}
   m_LocalScale: {x: 1, y: 1.2317, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 420648598}
   m_Father: {fileID: 1196072612}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: -0.001, y: 0, z: 89.996}
 --- !u!114 &351291186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7918,7 +7918,7 @@ MonoBehaviour:
   m_MinAngle: 0
   m_AngleIncrement: 36
   m_PositionTrackedRadius: 0.01
-  m_TwistSensitivity: 1
+  m_TwistSensitivity: 0
   m_OnValueChange:
     m_PersistentCalls:
       m_Calls: []
@@ -18271,7 +18271,7 @@ MonoBehaviour:
   m_MinAngle: 0
   m_AngleIncrement: 36
   m_PositionTrackedRadius: 0.01
-  m_TwistSensitivity: 1
+  m_TwistSensitivity: 0
   m_OnValueChange:
     m_PersistentCalls:
       m_Calls: []
@@ -21054,7 +21054,7 @@ MonoBehaviour:
   m_MinAngle: 0
   m_AngleIncrement: 36
   m_PositionTrackedRadius: 0.01
-  m_TwistSensitivity: 1
+  m_TwistSensitivity: 0
   m_OnValueChange:
     m_PersistentCalls:
       m_Calls: []
@@ -26583,7 +26583,7 @@ MonoBehaviour:
   m_MinAngle: 0
   m_AngleIncrement: 36
   m_PositionTrackedRadius: 0.01
-  m_TwistSensitivity: 1
+  m_TwistSensitivity: 0
   m_OnValueChange:
     m_PersistentCalls:
       m_Calls: []
