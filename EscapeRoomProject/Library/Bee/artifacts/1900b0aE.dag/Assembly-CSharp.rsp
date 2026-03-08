@@ -486,6 +486,7 @@
 "Assets/MazeAssets/MazePlayer.cs"
 "Assets/Scripts/Flashlight.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PowerBox.cs"
 "Assets/Scripts/StartMenu/AudioManager.cs"
 "Assets/Scripts/StartMenu/FadeScreen.cs"
