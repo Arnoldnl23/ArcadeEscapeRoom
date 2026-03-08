@@ -16,6 +16,7 @@ public class Flashlight : MonoBehaviour
         if (interactable != null)
         {
             interactable.selectEntered.AddListener(BeenGrabbed);
+            interactable.selectExited.AddListener(AfterGrabbed);
         }
     }
 
@@ -27,6 +28,11 @@ public class Flashlight : MonoBehaviour
             GameManager.tickets -= 10;
         }
         Debug.Log("Total tickets: " + GameManager.tickets);
+    }
+
+    public void AfterGrabbed(BaseInteractionEventArgs select)
+    {
+        hasBeenPickedUp = true;
     }
 
     // Update is called once per frame
