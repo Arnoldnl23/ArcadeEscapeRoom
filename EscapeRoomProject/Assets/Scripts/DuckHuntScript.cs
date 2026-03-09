@@ -28,7 +28,7 @@ public class DuckHuntScript : MonoBehaviour
         }
     }
 
-    void UpdateLaser()
+    public void UpdateLaser()
     {
         RaycastHit hit;
 
@@ -44,7 +44,7 @@ public class DuckHuntScript : MonoBehaviour
         }
     }
 
-    void Fire()
+    public void Fire()
     {
         RaycastHit hit;
 
