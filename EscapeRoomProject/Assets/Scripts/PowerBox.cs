@@ -10,6 +10,7 @@ public class VerticalLever : MonoBehaviour
     private Vector3 startPosition;
     [SerializeField] public GameObject Lights = null;
     [SerializeField] public bool LightsOn = false;
+    [SerializeField] public GameObject OffScreens = null;
 
     void Start()
     {
@@ -45,5 +46,6 @@ public class VerticalLever : MonoBehaviour
     {
         LightsOn = true;
         Lights.SetActive(true);
+        OffScreens.SetActive(false);
     }
 }
