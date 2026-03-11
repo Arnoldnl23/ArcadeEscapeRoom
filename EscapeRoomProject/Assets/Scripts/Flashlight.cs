@@ -6,6 +6,7 @@ public class Flashlight : MonoBehaviour
 {
     private XRBaseInteractable interactable;
     private bool hasBeenPickedUp;
+    public GameObject spotLight;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,6 +23,7 @@ public class Flashlight : MonoBehaviour
 
     public void BeenGrabbed(BaseInteractionEventArgs select)
     {
+        spotLight.SetActive(true);
         if (!hasBeenPickedUp)
         {
             hasBeenPickedUp = true;
@@ -32,6 +34,7 @@ public class Flashlight : MonoBehaviour
 
     public void AfterGrabbed(BaseInteractionEventArgs select)
     {
+        spotLight.SetActive(false);
         hasBeenPickedUp = true;
     }
 
