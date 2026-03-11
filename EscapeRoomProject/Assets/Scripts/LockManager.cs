@@ -7,7 +7,7 @@ using Random = UnityEngine.Random;
 public class LockManager : MonoBehaviour
 {
     [SerializeField] private Dial[] dials;
-    [SerializeField] private string solution;
+    private string solution = "8352";
 
     public GameObject lockParent;
 
@@ -22,6 +22,8 @@ public class LockManager : MonoBehaviour
             }
         }
 
+        Instantiate(Resources.Load<GameObject>("Basketball"), new Vector3(23.2609997f, 1.51199996f, -9.69799995f), new Quaternion(0, 0, 0, 0));
+        //Play correct sound effect
         Destroy(lockParent);
     }
 

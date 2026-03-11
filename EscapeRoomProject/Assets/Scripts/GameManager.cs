@@ -25,12 +25,4 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    ////Stuff to manage the pause menu (not currently using variables)
-    //public InputActionReference menuButton;
-    //public GameObject pauseMenu;
-    
-    //public void ToggleMenu(InputAction.CallbackContext context)
-    //{
-    //    pauseMenu.SetActive(!pauseMenu.activeSelf);
-    //}
 }
