@@ -28,7 +28,7 @@ public class DuckHuntScript : MonoBehaviour
         }
     }
 
-    public void UpdateLaser()
+    void UpdateLaser()
     {
         RaycastHit hit;
 
@@ -44,17 +44,25 @@ public class DuckHuntScript : MonoBehaviour
         }
     }
 
-    public void Fire()
-    {
-        RaycastHit hit;
+    void Fire()
+{
+    RaycastHit hit;
 
-        if (Physics.Raycast(firePoint.position, firePoint.forward, out hit, range))
+    if (Physics.Raycast(firePoint.position, firePoint.forward, out hit, range))
+    {
+        if (hit.collider.CompareTag("Bird"))
         {
-            if (hit.collider.CompareTag("Bird"))
+            Debug.Log("Bird Hit!");
+
+            BirdTarget bird = hit.collider.GetComponentInParent<BirdTarget>();
+
+            if (bird != null)
             {
-                Debug.Log("Bird Hit!");
-                Destroy(hit.collider.gameObject);
+                bird.Hit();
             }
         }
+
+        Debug.Log("Shoot");
     }
+}
 }

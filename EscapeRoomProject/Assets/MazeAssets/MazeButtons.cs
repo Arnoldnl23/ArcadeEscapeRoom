@@ -16,6 +16,7 @@ public class MazeButtons : MonoBehaviour
     private GameObject mazePlayerObject;
     private Transform mazePlayerTransform;
     public Vector3 moveDirection;
+    public float rotationValue;
 
     private XRBaseInteractable interactable;
     private bool isFollowing = false;
@@ -65,6 +66,7 @@ public class MazeButtons : MonoBehaviour
             if (mazePlayerObject.GetComponent<Player>().isColliding == false)
             {
                 mazePlayerTransform.Translate(moveDirection * Time.deltaTime);
+                //mazePlayerTransform.rotation = new Quaternion(mazePlayerTransform.rotation.x, mazePlayerTransform.rotation.y, rotationValue, mazePlayerTransform.rotation.w);
             }
             else
             {
