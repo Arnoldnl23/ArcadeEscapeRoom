@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "C:/Github/ArcadeEscapeRoom/EscapeRoomProject/Packages",
+    "projectPath": "C:/Users/dreww/OneDrive/Desktop/ArcadeEscapeRoomGIT/ArcadeEscapeRoom/EscapeRoomProject/Packages",
     "unityVersion": "6000.2.5f1"
   },
   "inputs": [
-    "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Packages\\manifest.json",
-    "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Packages\\packages-lock.json",
+    "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Packages\\manifest.json",
+    "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Packages\\packages-lock.json",
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.5f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.2d.sprite@331abd9a1e2f",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.2d.sprite@331abd9a1e2f",
       "fingerprint": "331abd9a1e2ff424a1ef2626e16936071ab7ce3d",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -22,7 +22,7 @@
     "com.unity.feature.development@1.0.2": {
       "name": "com.unity.feature.development",
       "displayName": "Engineering",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7",
       "fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef",
       "version": "1.0.2",
       "source": "builtin",
@@ -31,7 +31,7 @@
     "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
       "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.0.38",
@@ -41,7 +41,7 @@
     "com.unity.inputsystem@1.15.0": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.inputsystem@85cf3259697c",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.inputsystem@85cf3259697c",
       "fingerprint": "85cf3259697cccae3fcad0fbeb83999f03182c32",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.15.0",
@@ -51,7 +51,7 @@
     "com.unity.learn.iet-framework@5.0.2": {
       "name": "com.unity.learn.iet-framework",
       "displayName": "Tutorial Framework",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.learn.iet-framework@c18a35c1d1a1",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.learn.iet-framework@c18a35c1d1a1",
       "fingerprint": "c18a35c1d1a104da89f97a15f3ef7fc112ec49d6",
       "editorCompatibility": "2021.3.0a1",
       "version": "5.0.2",
@@ -61,7 +61,7 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
       "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
@@ -71,7 +71,7 @@
     "com.unity.render-pipelines.universal@17.2.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023",
       "fingerprint": "0d096242602318bec624291886beeefeef3f7604",
       "editorCompatibility": "6000.2.0a1",
       "version": "17.2.0",
@@ -81,7 +81,7 @@
     "com.unity.shadergraph@17.2.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.shadergraph@940512a5d7e1",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.shadergraph@940512a5d7e1",
       "fingerprint": "940512a5d7e1b4086835b7a9ae3108437dfc057e",
       "editorCompatibility": "6000.2.0a1",
       "version": "17.2.0",
@@ -91,7 +91,7 @@
     "com.unity.timeline@1.8.9": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
       "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.8.9",
@@ -101,7 +101,7 @@
     "com.unity.xr.androidxr-openxr@1.0.2": {
       "name": "com.unity.xr.androidxr-openxr",
       "displayName": "Unity OpenXR Android XR",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.androidxr-openxr@b840a88867bc",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.androidxr-openxr@b840a88867bc",
       "fingerprint": "b840a88867bcffd2805c3269783b42be8c95e173",
       "editorCompatibility": "6000.0.23f1",
       "version": "1.0.2",
@@ -111,7 +111,7 @@
     "com.unity.xr.arfoundation@6.3.1": {
       "name": "com.unity.xr.arfoundation",
       "displayName": "AR Foundation",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.arfoundation@f2cbfcba674a",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.arfoundation@f2cbfcba674a",
       "fingerprint": "f2cbfcba674a47c7c36be501fc6974131f9ee257",
       "editorCompatibility": "6000.0.0a1",
       "version": "6.3.1",
@@ -121,7 +121,7 @@
     "com.unity.xr.core-utils@2.5.3": {
       "name": "com.unity.xr.core-utils",
       "displayName": "XR Core Utilities",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.core-utils@f0450cbac8d6",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.core-utils@f0450cbac8d6",
       "fingerprint": "f0450cbac8d66beb614cb1b4241eae977ee9990e",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.5.3",
@@ -131,7 +131,7 @@
     "com.unity.xr.hands@1.7.1": {
       "name": "com.unity.xr.hands",
       "displayName": "XR Hands",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.hands@7bcbb3f89c3d",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.hands@7bcbb3f89c3d",
       "fingerprint": "7bcbb3f89c3d5aabd579be6f99ecc48240b37744",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.7.1",
@@ -141,7 +141,7 @@
     "com.unity.xr.interaction.toolkit@3.3.0": {
       "name": "com.unity.xr.interaction.toolkit",
       "displayName": "XR Interaction Toolkit",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@4424268f6f27",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@4424268f6f27",
       "fingerprint": "4424268f6f279a8da3e9a4524cda7a4c5277050b",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.3.0",
@@ -151,7 +151,7 @@
     "com.unity.xr.management@4.5.3": {
       "name": "com.unity.xr.management",
       "displayName": "XR Plugin Management",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.management@574ebfb1e976",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.management@574ebfb1e976",
       "fingerprint": "574ebfb1e9766bb5f6bdb255c6abfb195b43f4cb",
       "editorCompatibility": "2022.3.0a1",
       "version": "4.5.3",
@@ -161,7 +161,7 @@
     "com.unity.xr.openxr@1.15.1": {
       "name": "com.unity.xr.openxr",
       "displayName": "OpenXR Plugin",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.openxr@05fb1a7d75d1",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.openxr@05fb1a7d75d1",
       "fingerprint": "05fb1a7d75d118139c283c8d76b7f99a655364a8",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.15.1",
@@ -443,7 +443,7 @@
     "com.unity.xr.legacyinputhelpers@2.1.12": {
       "name": "com.unity.xr.legacyinputhelpers",
       "displayName": "XR Legacy Input Helpers",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4",
       "fingerprint": "b7579e86f3b456c909fda6b875fba7ab1eeb1322",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.1.12",
@@ -453,7 +453,7 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.ugui@38c58105e446",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.ugui@38c58105e446",
       "fingerprint": "38c58105e446af1c55b1d9d1e5bf970ff7d271c8",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
@@ -463,7 +463,7 @@
     "com.unity.mathematics@1.3.2": {
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
       "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.3.2",
@@ -473,7 +473,7 @@
     "com.unity.editorcoroutines@1.0.0": {
       "name": "com.unity.editorcoroutines",
       "displayName": "Editor Coroutines",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.editorcoroutines@7d48783e7b8c",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.editorcoroutines@7d48783e7b8c",
       "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
       "editorCompatibility": "2018.1.0a1",
       "version": "1.0.0",
@@ -483,7 +483,7 @@
     "com.unity.render-pipelines.core@17.2.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.render-pipelines.core@f2c863af5658",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.render-pipelines.core@f2c863af5658",
       "fingerprint": "f2c863af56582af13f49ff3fc76266cffc6eec90",
       "editorCompatibility": "6000.2.0a1",
       "version": "17.2.0",
@@ -493,7 +493,7 @@
     "com.unity.searcher@4.9.3": {
       "name": "com.unity.searcher",
       "displayName": "Searcher",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
       "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
       "editorCompatibility": "2019.1.0a1",
       "version": "4.9.3",
@@ -503,7 +503,7 @@
     "com.unity.render-pipelines.universal-config@17.0.3": {
       "name": "com.unity.render-pipelines.universal-config",
       "displayName": "Universal Render Pipeline Config",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
       "fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
@@ -513,7 +513,7 @@
     "com.unity.settings-manager@2.1.0": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.settings-manager@41738c275190",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.settings-manager@41738c275190",
       "fingerprint": "41738c27519039c335849eb78949382f4d7a3544",
       "editorCompatibility": "2022.3.0a1",
       "version": "2.1.0",
@@ -523,7 +523,7 @@
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
       "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
@@ -533,7 +533,7 @@
     "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
       "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
       "version": "2.0.23",
@@ -543,7 +543,7 @@
     "com.unity.performance.profile-analyzer@1.2.3": {
       "name": "com.unity.performance.profile-analyzer",
       "displayName": "Profile Analyzer",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.performance.profile-analyzer@a68e7bc84997",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.performance.profile-analyzer@a68e7bc84997",
       "fingerprint": "a68e7bc849973d943853204178d08a2bc7656ffe",
       "editorCompatibility": "2020.3.0a1",
       "version": "1.2.3",
@@ -553,7 +553,7 @@
     "com.unity.test-framework@1.5.1": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.test-framework@038a2b0cacd2",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.test-framework@038a2b0cacd2",
       "fingerprint": "038a2b0cacd25d4e9668f9e0f7612139f5dbee81",
       "editorCompatibility": "6000.0.44f1",
       "version": "1.5.1",
@@ -563,7 +563,7 @@
     "com.unity.testtools.codecoverage@1.2.6": {
       "name": "com.unity.testtools.codecoverage",
       "displayName": "Code Coverage",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39",
       "fingerprint": "205a02cbcb39584f20b51c49b853047aceb3a3a7",
       "editorCompatibility": "2019.3.0a1",
       "version": "1.2.6",
@@ -573,7 +573,7 @@
     "com.unity.burst@1.8.24": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.burst@f7a407abf4d5",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.burst@f7a407abf4d5",
       "fingerprint": "f7a407abf4d5abf19ce630824dcde261e02ed97e",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.8.24",
@@ -583,7 +583,7 @@
     "com.unity.collections@2.5.7": {
       "name": "com.unity.collections",
       "displayName": "Collections",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.collections@d49facba0036",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.collections@d49facba0036",
       "fingerprint": "d49facba0036aa0e1508296262f9d93b44d1ab3b",
       "editorCompatibility": "2022.3.20f1",
       "version": "2.5.7",
@@ -593,7 +593,7 @@
     "com.unity.rendering.light-transport@1.0.1": {
       "name": "com.unity.rendering.light-transport",
       "displayName": "Unity Light Transport Library",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.rendering.light-transport@2c9279f90d7c",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.rendering.light-transport@2c9279f90d7c",
       "fingerprint": "2c9279f90d7c8dfb6e76e3f90b6b3be1cafabfbc",
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
@@ -603,7 +603,7 @@
     "com.unity.nuget.mono-cecil@1.11.5": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb",
       "fingerprint": "d78732e851eb42273c8e4d97993d3a94b207e570",
       "editorCompatibility": "2019.4.0a1",
       "version": "1.11.5",
@@ -613,7 +613,7 @@
     "com.unity.test-framework.performance@3.1.0": {
       "name": "com.unity.test-framework.performance",
       "displayName": "Performance testing API",
-      "resolvedPath": "C:\\Github\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
+      "resolvedPath": "C:\\Users\\dreww\\OneDrive\\Desktop\\ArcadeEscapeRoomGIT\\ArcadeEscapeRoom\\EscapeRoomProject\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
       "fingerprint": "92d1d09a72ed696fa23fd76c675b29d211664b50",
       "editorCompatibility": "2020.3.0a1",
       "version": "3.1.0",

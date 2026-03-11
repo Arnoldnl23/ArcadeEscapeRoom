@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,4 +24,13 @@ public class GameManager : MonoBehaviour
         // Ensure the GameManager persists across scene loads.
         DontDestroyOnLoad(this.gameObject);
     }
+
+    ////Stuff to manage the pause menu (not currently using variables)
+    //public InputActionReference menuButton;
+    //public GameObject pauseMenu;
+    
+    //public void ToggleMenu(InputAction.CallbackContext context)
+    //{
+    //    pauseMenu.SetActive(!pauseMenu.activeSelf);
+    //}
 }

@@ -1,4 +1,8 @@
+using NUnit.Framework;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using Unity.VRTemplate;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -9,16 +13,20 @@ public class Dial : MonoBehaviour
 {
     public float currentIndex;
     private XRBaseInteractable interactable;
+    private XRKnob knob;
 
     [SerializeField] private UnityEvent<Dial> onDialRotated;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        currentIndex = Random.Range(0, 10);
-        transform.rotation = Quaternion.Euler(currentIndex * 36, 0, 90);
 
         interactable = GetComponent<XRBaseInteractable>();
+        knob = GetComponent<XRKnob>();
+
+        currentIndex = Random.Range(0, 10);
+        knob.value = currentIndex / 10;
+
         if (interactable != null)
         {
             interactable.selectExited.AddListener(AfterRelease);
@@ -34,23 +42,15 @@ public class Dial : MonoBehaviour
 
     public void AfterRelease(BaseInteractionEventArgs select)
     {
-        Debug.Log("Current rotation: " + transform.rotation.x);
-        //snap downwards
-        //if (transform.localRotation.x % 36 > 17)
-        //{
-        //    float rotationVal = transform.localRotation.x - (transform.localRotation.x % 36);
-        //    transform.localRotation = Quaternion.Euler(rotationVal, 0, 90);
-        //    currentIndex = Math.Abs(rotationVal / 36);
-        //}
-        //else //snap upwards
-        //{
-        //    float rotationVal = transform.localRotation.x + (36 - (transform.localRotation.x % 36));
-        //    transform.localRotation = Quaternion.Euler(rotationVal, 0, 90);
-        //    currentIndex = Math.Abs(rotationVal / 36);
-        //}
+        currentIndex = 9 - (int)(knob.value * 10); 
+
         if (currentIndex >= 10)
         {
             currentIndex -= 10;
+        }
+        if (currentIndex < 0)
+        {
+            currentIndex = 0;
         }
         Debug.Log(gameObject.name + " value: " + currentIndex);
 
