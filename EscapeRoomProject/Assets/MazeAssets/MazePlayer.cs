@@ -5,7 +5,8 @@ public class Player : MonoBehaviour
     public bool isColliding = false;
     public Canvas mazeResult;
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "Wall")
         {
@@ -23,7 +24,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionStay(Collision collision)
+    private void OnTriggerStay(Collider collision)
     {
         if (collision.gameObject.tag == "Wall")
         {
@@ -31,7 +32,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider collision)
     {
         if (collision.gameObject.tag == "Wall")
         {
