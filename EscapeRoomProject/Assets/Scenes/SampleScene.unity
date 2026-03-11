@@ -8014,7 +8014,7 @@ Transform:
   m_GameObject: {fileID: 319805242}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.598373, y: 2.86481, z: -6.8512}
+  m_LocalPosition: {x: 7.627, y: 2.849, z: -6.8512}
   m_LocalScale: {x: 0.8526901, y: 0.85269, z: 0.8526899}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8039,10 +8039,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.08888528
+  m_Radius: 0.07670865
   m_Height: 0.23215875
   m_Direction: 2
-  m_Center: {x: -0.014042345, y: -0.00023449479, z: 0.007316249}
+  m_Center: {x: -0.014042346, y: -0.00044485566, z: 0.0073162476}
 --- !u!54 &319805247
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27635,7 +27635,7 @@ GameObject:
   - component: {fileID: 1072216366}
   m_Layer: 0
   m_Name: MazeGoal
-  m_TagString: Untagged
+  m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
