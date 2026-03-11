@@ -13,6 +13,6 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         this.transform.position = new Vector3(head.position.x, head.position.y - 1.33f, head.position.z);
-        this.transform.rotation = new Quaternion(90, 0, head.rotation.z, 0);
+        this.transform.rotation = head.rotation;
     }
 }
