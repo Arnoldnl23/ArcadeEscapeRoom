@@ -42,7 +42,8 @@ public class Dial : MonoBehaviour
 
     public void AfterRelease(BaseInteractionEventArgs select)
     {
-        currentIndex = 9 - (int)(knob.value * 10); 
+        currentIndex = 9 - (int)(knob.value * 10);
+        currentIndex++;
 
         if (currentIndex >= 10)
         {

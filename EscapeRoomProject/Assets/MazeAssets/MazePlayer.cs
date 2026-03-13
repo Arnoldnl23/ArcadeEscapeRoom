@@ -16,7 +16,8 @@ public class Player : MonoBehaviour
         {
             //Spawn in gun and text saying to take the gun
             Instantiate(Resources.Load<GameObject>("Gun_Prefab"), new Vector3(8.80944157f, 2.00699997f, -7.03487587f), new Quaternion(0, 0.707106829f, 0, 0.707106829f));
-            GameManager.tickets += 10;
+            //Play correct sound effect
+            FindFirstObjectByType<GameManager>().updateTickets(10);
 
             mazeResult.GetComponent<CanvasGroup>().alpha = 1;
             this.gameObject.SetActive(false);

@@ -8,6 +8,9 @@ TagManager:
   - Wall
   - Goal
   - Item
+  - OffScreen
+  - Bird
+  - Ball
   layers:
   - Default
   - TransparentFX
