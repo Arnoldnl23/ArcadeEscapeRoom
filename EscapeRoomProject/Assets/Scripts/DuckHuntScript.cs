@@ -10,10 +10,13 @@ public class DuckHuntScript : MonoBehaviour
 
     private LineRenderer laserLine;
 
+    private AudioSource audioCom;
+
     void Start()
     {
         laserLine = GetComponent<LineRenderer>();
         laserLine.positionCount = 2;
+        audioCom = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -61,7 +64,7 @@ public class DuckHuntScript : MonoBehaviour
                 bird.Hit();
             }
         }
-
+        audioCom.Play();
         Debug.Log("Shoot");
     }
 }

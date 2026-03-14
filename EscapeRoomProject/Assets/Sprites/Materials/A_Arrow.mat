@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DecalTest2 Variant
+  m_Name: A_Arrow
   m_Shader: {fileID: -6465566751694194690, guid: a4aff726952c99d41aaa86d239bd5325, type: 3}
   m_Parent: {fileID: -876546973899608171, guid: a4aff726952c99d41aaa86d239bd5325, type: 3}
   m_ModifiedSerializedProperties: 20
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 1998
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: e3093c1a3d4800f4b839c6057e011f3b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 74c73495ed3d6a048ba9005a705de98d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []

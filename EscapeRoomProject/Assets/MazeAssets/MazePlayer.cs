@@ -5,6 +5,12 @@ public class Player : MonoBehaviour
     public bool isColliding = false;
     public Canvas mazeResult;
 
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnTriggerEnter(Collider collision)
     {
@@ -16,7 +22,7 @@ public class Player : MonoBehaviour
         {
             //Spawn in gun and text saying to take the gun
             Instantiate(Resources.Load<GameObject>("Gun_Prefab"), new Vector3(8.80944157f, 2.00699997f, -7.03487587f), new Quaternion(0, 0.707106829f, 0, 0.707106829f));
-            //Play correct sound effect
+            audioSource.Play();
             FindFirstObjectByType<GameManager>().updateTickets(10);
 
             mazeResult.GetComponent<CanvasGroup>().alpha = 1;
