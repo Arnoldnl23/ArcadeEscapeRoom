@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: efef341aa034fb144ba161335d0e1525, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.13
+      value: 9.726
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efef341aa034fb144ba161335d0e1525, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.868
+      value: 1.019
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efef341aa034fb144ba161335d0e1525, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.86
+      value: -16.95
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efef341aa034fb144ba161335d0e1525, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50,6 +50,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: efef341aa034fb144ba161335d0e1525, type: 3}
       propertyPath: m_Name
+      value: Crowbar
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: efef341aa034fb144ba161335d0e1525, type: 3}
+      propertyPath: m_TagString
       value: Crowbar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -114,7 +118,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -169,7 +173,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8547838976274095630}
+        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+        m_MethodName: set_useGravity
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []

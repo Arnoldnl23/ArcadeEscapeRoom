@@ -23,7 +23,7 @@ public class BasketballManager : MonoBehaviour
                 if (currentSeries[i] != correctSeries[i])
                 {
                     currentSeries.Clear();
-                    //Play incorrect sound effect
+                    audioSource.Play();
                     return;
                 }
             }

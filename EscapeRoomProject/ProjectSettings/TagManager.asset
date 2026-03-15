@@ -11,6 +11,7 @@ TagManager:
   - OffScreen
   - Bird
   - Ball
+  - Crowbar
   layers:
   - Default
   - TransparentFX
