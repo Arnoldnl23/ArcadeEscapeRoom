@@ -12,6 +12,7 @@ TagManager:
   - Bird
   - Ball
   - Crowbar
+  - Key
   layers:
   - Default
   - TransparentFX
