@@ -14,7 +14,7 @@ public class FinalPuzzleManager : MonoBehaviour
     private bool activated = false;
 
     private string solution = "\u2191 \u2191 \u2193 \u2193 \u2190\u2192\u2190\u2192B A ";
-    private string input = "\u2191 \u2191 \u2193 \u2193 \u2190\u2192\u2190\u2192B ";
+    private string input = "";
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

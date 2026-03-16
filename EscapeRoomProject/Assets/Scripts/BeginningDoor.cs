@@ -6,6 +6,7 @@ public class BeginningDoor : MonoBehaviour
     public float openAngle = 90f;
     public float openSpeed = 2f;
 
+    public GameObject door;
     private bool opening = false;
 
     void Update()
@@ -26,6 +27,7 @@ public class BeginningDoor : MonoBehaviour
         if (other.CompareTag("Key"))
         {
             Destroy(other.gameObject);
+            door.GetComponent<Collider>().enabled = false;
             opening = true;
         }
     }

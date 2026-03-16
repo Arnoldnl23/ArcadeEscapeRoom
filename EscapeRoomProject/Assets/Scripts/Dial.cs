@@ -20,12 +20,8 @@ public class Dial : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
         interactable = GetComponent<XRBaseInteractable>();
         knob = GetComponent<XRKnob>();
-
-        currentIndex = Random.Range(0, 10);
-        knob.value = currentIndex / 10;
 
         if (interactable != null)
         {
