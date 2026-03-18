@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
 
     private float remainingTime;
 
+    // For hints
+    public static GameManager Instance => instance;
+
     private void Awake()
     {
         // If an instance already exists and it's not this one, destroy this one.
@@ -72,4 +75,13 @@ public class GameManager : MonoBehaviour
         scoreText.text = tickets.ToString();
     }
 
+    // For Hints
+    public void CompleteGame(int gameIndex)
+    {
+        if (gameIndex > progressCount)
+        {
+            progressCount = gameIndex;
+            Debug.Log("Progress updated to: " + progressCount);
+        }
+    }
 }

@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
             FindFirstObjectByType<GameManager>().updateTickets(10);
 
             mazeResult.GetComponent<CanvasGroup>().alpha = 1;
+            GameManager.progressCount++;
             this.gameObject.SetActive(false);
             this.enabled = false;
         }

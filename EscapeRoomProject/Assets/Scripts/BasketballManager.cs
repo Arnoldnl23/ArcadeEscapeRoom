@@ -30,7 +30,9 @@ public class BasketballManager : MonoBehaviour
 
             Instantiate(Resources.Load<GameObject>("Crowbar"), new Vector3(25.1299992f, 0.867999971f, -11.8599997f), new Quaternion(0, 0, 0, 0));
             audioSource.Play();
+            GameManager.progressCount++;
             this.enabled = false;
+            
         }
     }
 }

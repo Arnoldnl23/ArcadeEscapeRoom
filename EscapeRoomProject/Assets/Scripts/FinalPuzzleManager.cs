@@ -71,6 +71,7 @@ public class FinalPuzzleManager : MonoBehaviour
         {
             canvas.GetComponent<CanvasGroup>().alpha = 1.0f;
             activated = true;
+            GameManager.progressCount++;
         }
     }
 }

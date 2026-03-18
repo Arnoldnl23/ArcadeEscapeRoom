@@ -92,6 +92,8 @@ public class VerticalLever : MonoBehaviour
         {
             OffScreens.SetActive(false);
         }
+
+        GameManager.progressCount++;
     }
 
     void ChangeMaterials(Renderer[] renderers, Material mat)
