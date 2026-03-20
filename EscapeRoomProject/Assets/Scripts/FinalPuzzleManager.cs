@@ -44,6 +44,7 @@ public class FinalPuzzleManager : MonoBehaviour
                     speaker.resource = incorrectSound;
                     speaker.Play();
                     input = "";
+                    Debug.Log("Right length wrong code");
                     textBox.text = input;
                 }
             }
@@ -52,6 +53,7 @@ public class FinalPuzzleManager : MonoBehaviour
                 speaker.resource = incorrectSound;
                 speaker.Play();
                 input = "";
+                Debug.Log("Too long");
                 textBox.text = input;
             }
         }
