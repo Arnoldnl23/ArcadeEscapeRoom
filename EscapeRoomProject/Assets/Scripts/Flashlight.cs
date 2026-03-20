@@ -27,9 +27,8 @@ public class Flashlight : MonoBehaviour
         if (!hasBeenPickedUp)
         {
             hasBeenPickedUp = true;
-            GameManager.tickets -= 10;
+            FindFirstObjectByType<GameManager>().updateTickets(-10);
         }
-        Debug.Log("Total tickets: " + GameManager.tickets);
     }
 
     public void AfterGrabbed(BaseInteractionEventArgs select)
@@ -38,9 +37,4 @@ public class Flashlight : MonoBehaviour
         hasBeenPickedUp = true;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

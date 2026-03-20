@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
 
     private AudioSource audioSource;
 
+    public Vector3 lastMoveDirection;
+
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -22,6 +24,8 @@ public class Player : MonoBehaviour
         {
             //Spawn in gun and text saying to take the gun
             Instantiate(Resources.Load<GameObject>("Gun_Prefab"), new Vector3(8.80944157f, 2.00699997f, -7.03487587f), new Quaternion(0, 0.707106829f, 0, 0.707106829f));
+            Instantiate(Resources.Load<GameObject>("Toy Flashlight"), new Vector3(27.5149994f, 0.986000001f, -12.7250004f), new Quaternion(0, 1, 0, 0));
+            Instantiate(Resources.Load<GameObject>("CluePaperDuckHunt"), new Vector3(9.56799984f, 1.97099996f, -7.01200008f), new Quaternion(-0.5f, -0.5f, 0.5f, 0.5f));
             audioSource.Play();
             FindFirstObjectByType<GameManager>().updateTickets(10);
 
@@ -47,5 +51,4 @@ public class Player : MonoBehaviour
             isColliding = false;
         }
     }
-
 }

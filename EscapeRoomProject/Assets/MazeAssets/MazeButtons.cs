@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
@@ -17,10 +18,12 @@ public class MazeButtons : MonoBehaviour
     private Transform mazePlayerTransform;
     public Vector3 moveDirection;
     public RuntimeAnimatorController playerDirection;
+    private Vector3 lastMoveDirection;
 
     private XRBaseInteractable interactable;
     private bool isFollowing = false;
-    
+
+
     void Start()
     {
         initialPos = visualTarget.localPosition;
@@ -67,10 +70,11 @@ public class MazeButtons : MonoBehaviour
             {
                 mazePlayerTransform.Translate(moveDirection * Time.deltaTime);
                 mazePlayerObject.GetComponent<Animator>().runtimeAnimatorController = playerDirection;
+                mazePlayerObject.GetComponent<Player>().lastMoveDirection = moveDirection;
             }
             else
             {
-                mazePlayerTransform.Translate((-moveDirection * 3) * Time.deltaTime);
+                mazePlayerTransform.Translate(mazePlayerObject.GetComponent<Player>().lastMoveDirection * -3 * Time.deltaTime);
             }
             return;
         }

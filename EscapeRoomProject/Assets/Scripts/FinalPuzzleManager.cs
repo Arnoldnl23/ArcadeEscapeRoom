@@ -13,8 +13,8 @@ public class FinalPuzzleManager : MonoBehaviour
 
     private bool activated = false;
 
-    private string solution = "\u2191 \u2191 \u2193 \u2193 \u2190\u2192\u2190\u2192B A ";
-    private string input = "";
+    string solution = @"\u2191 \u2191 \u2193 \u2193 \u2190\u2192\u2190\u2192B A ";
+    public string input = @"";
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,12 +29,13 @@ public class FinalPuzzleManager : MonoBehaviour
         {
             input += value;
             textBox.text = input;
-            if (input.Length == solution.Length)
+            if (input.Length == 56)
             {
                 if (input == solution)
                 {
                     FindFirstObjectByType<GameManager>().updateTickets(1000);
                     speaker.resource = correctSound;
+                    Debug.Log("Puzzle Complete!");
                     StartCoroutine(playCorrectSound());
                     activated = false;
                 }
@@ -46,7 +47,7 @@ public class FinalPuzzleManager : MonoBehaviour
                     textBox.text = input;
                 }
             }
-            if (input.Length > solution.Length)
+            if (input.Length > 56)
             {
                 speaker.resource = incorrectSound;
                 speaker.Play();

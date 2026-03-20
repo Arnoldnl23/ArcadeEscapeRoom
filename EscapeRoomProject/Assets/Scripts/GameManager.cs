@@ -36,8 +36,6 @@ public class GameManager : MonoBehaviour
         instance = this;
         // Ensure the GameManager persists across scene loads.
         DontDestroyOnLoad(this.gameObject);
-
-        StartTimer();
     }
 
     public void StartTimer()
