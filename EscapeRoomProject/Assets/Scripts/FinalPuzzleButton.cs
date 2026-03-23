@@ -11,6 +11,7 @@ public class FinalPuzzleButton : MonoBehaviour
     private Vector3 initialPos;
     private Vector3 offset;
     private Vector3 localAxis = new Vector3(0, -1, 0);
+    public float angleThreshold = 45;
 
     private XRBaseInteractable interactable;
     private bool isFollowing = false;
@@ -35,10 +36,18 @@ public class FinalPuzzleButton : MonoBehaviour
         if (hover.interactorObject is XRPokeInteractor)
         {
             XRPokeInteractor interactor = (XRPokeInteractor)hover.interactorObject;
-            isFollowing = true;
             pokeAttach = interactor.attachTransform;
             offset = visualTarget.position - pokeAttach.position;
-            freeze = false;
+
+            isFollowing = true;
+
+            float pokeAngle = Vector3.Angle(offset, visualTarget.TransformDirection(localAxis));
+
+            if (pokeAngle > angleThreshold)
+            {
+                isFollowing = false;
+                freeze = true;
+            }
         }
     }
 

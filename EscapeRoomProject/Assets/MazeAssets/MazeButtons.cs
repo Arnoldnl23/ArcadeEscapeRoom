@@ -12,6 +12,8 @@ public class MazeButtons : MonoBehaviour
     private Vector3 offset;
     private Vector3 localAxis = new Vector3(0,-1,0);
 
+    public float angleThreshold = 45;
+
     private bool freeze;
 
     private GameObject mazePlayerObject;
@@ -48,7 +50,14 @@ public class MazeButtons : MonoBehaviour
             isFollowing = true;
             pokeAttach = interactor.attachTransform;
             offset = visualTarget.position - pokeAttach.position;
-            freeze = false;
+
+            float pokeAngle = Vector3.Angle(offset, visualTarget.TransformDirection(localAxis));
+
+            if (pokeAngle > angleThreshold)
+            {
+                isFollowing = false;
+                freeze = true;
+            }
         }
     }
 
