@@ -5,7 +5,7 @@ using System.Collections;
 public class OpeningVideo : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public float delay = 5f;
+    public float delay = 8f;
 
     private void Awake()
     {

@@ -20,6 +20,7 @@ public class VerticalLever : MonoBehaviour
     [SerializeField] private GameObject BarLights;
     [SerializeField] private GameObject BasketBallLight1;
     [SerializeField] private GameObject BasketBallLight2;
+    [SerializeField] private GameObject BirdGroup;
 
     // MATERIALS
     [SerializeField] private Material RectangleMaterial1;
@@ -91,6 +92,11 @@ public class VerticalLever : MonoBehaviour
         if (OffScreens != null)
         {
             OffScreens.SetActive(false);
+        }
+
+        if (BirdGroup != null)
+        {
+            BirdGroup.SetActive(true);
         }
 
         GameManager.progressCount++;
