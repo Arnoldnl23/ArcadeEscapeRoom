@@ -24,7 +24,7 @@ public class BasketballManager : MonoBehaviour
         if (!beenCompleted)
         {
             currentSeries.Add(value);
-            if (currentSeries.Count == 4)
+            if (currentSeries.Count == 5)
             {
                 for (int i = 0; i < currentSeries.Count; i++)
                 {
