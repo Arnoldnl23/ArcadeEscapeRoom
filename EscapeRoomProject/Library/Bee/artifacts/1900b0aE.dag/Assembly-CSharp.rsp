@@ -494,6 +494,8 @@
 "Assets/Scripts/FinalPuzzleManager.cs"
 "Assets/Scripts/Flashlight.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/HintButton.cs"
+"Assets/Scripts/HintSystem.cs"
 "Assets/Scripts/LockManager.cs"
 "Assets/Scripts/OpeningVideo.cs"
 "Assets/Scripts/PauseMenu.cs"
