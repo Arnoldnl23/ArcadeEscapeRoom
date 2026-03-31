@@ -10,6 +10,7 @@ public class FinalPuzzleManager : MonoBehaviour
 
     public AudioClip correctSound;
     public AudioClip incorrectSound;
+    public GameObject finalHint;
 
     private bool activated = false;
 
@@ -65,6 +66,7 @@ public class FinalPuzzleManager : MonoBehaviour
         {
             speaker.Play();
             yield return new WaitForSeconds(1);
+            FindObjectOfType<UIManager>().ShowWinText();
         }
     }
 
@@ -75,6 +77,7 @@ public class FinalPuzzleManager : MonoBehaviour
             canvas.GetComponent<CanvasGroup>().alpha = 1.0f;
             activated = true;
             GameManager.progressCount++;
+            finalHint.SetActive(true);
         }
     }
 }

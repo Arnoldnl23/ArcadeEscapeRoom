@@ -25,7 +25,6 @@ public class HintSystem : MonoBehaviour
     public GameObject hint6A;
     public GameObject hint6B;
     public GameObject hint6C;
-    public GameObject hint6D;
 
     // Tracks how many times player pressed hint button per stage
     private int hintStep = 0;
@@ -81,7 +80,6 @@ public class HintSystem : MonoBehaviour
             case 0: hint6A.SetActive(true); break;
             case 1: hint6B.SetActive(true); break;
             case 2: hint6C.SetActive(true); break;
-            case 3: hint6D.SetActive(true); break;
         }
 
         hintStep++;
